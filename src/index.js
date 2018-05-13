@@ -1,8 +1,7 @@
-import Vue from 'vue/dist/vue';
+import Vue from 'vue';
+import App from './components/App.vue';
 
 new Vue({
   el: '#app',
-  data: {
-    message: 'Привет, Vue!'
-  }
+  render: h => h(App),
 });
